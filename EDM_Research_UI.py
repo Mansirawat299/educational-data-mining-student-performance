@@ -10,9 +10,6 @@ warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
 
-# ============================================
-# TRAIN THE MODEL - ACHIEVING 97% ACCURACY
-# ============================================
 
 print("\n" + "="*60)
 print("🎓 EDUCATIONAL DATA MINING SYSTEM - 97% ACCURACY MODEL")
@@ -172,9 +169,7 @@ print("\n" + "="*60)
 print("✅ System Ready! 97% Accuracy Model Loaded")
 print("="*60 + "\n")
 
-# ============================================
-# FLASK ROUTES
-# ============================================
+
 
 @app.route('/')
 def index():
